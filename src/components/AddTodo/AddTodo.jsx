@@ -22,6 +22,7 @@ export default function AddTodo({ onAdd }) {
         placeholder="Add Todo"
         value={text}
         onChange={handleChange}
+        autoFocus
       />
       <button className={styles.button}>Add</button>
     </form>
