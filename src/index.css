@@ -37,6 +37,15 @@ body {
     rgba(8, 172, 221, 1) 100%
   );
 }
+html.dark > body {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 38%,
+    rgba(56, 9, 121, 0.9971639168362657) 69%,
+    rgba(13, 61, 92, 1) 100%
+  );
+}
 
 #root {
   width: 100vw;
