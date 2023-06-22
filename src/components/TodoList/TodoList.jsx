@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import AddTodo from "../AddTodo/AddTodo";
 import Todo from "../Todo/Todo";
 import styles from "./TodoList.module.css";
-import { v4 as uuidv4 } from "uuid";
 
 export default function TodoList({ filter }) {
   const [todos, setTodos] = useState(() => readTodosFromLocalStorage());
